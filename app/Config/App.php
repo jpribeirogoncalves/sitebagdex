@@ -17,7 +17,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'http://arteemusica.mus.br/sistema/grupo02/sitebagdex/public/';
+    public string $baseURL = 'https://sitebagdex-production.up.railway.app/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
