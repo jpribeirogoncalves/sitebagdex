@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'c2grupo02',
-        'password' => 'grupo02univicosa',
-        'database' => 'c2grupo02',
+        'hostname' => 'containers-us-west-117.railway.app',
+        'username' => 'railway',
+        'password' => 'PQolO4RKNsCAe0kPxMX1',
+        'database' => 'railway',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -41,7 +41,7 @@ class Database extends Config
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3306,
+        'port'     => 7363,
     ];
 
     /**
